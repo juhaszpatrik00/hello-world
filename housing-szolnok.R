@@ -1,2 +1,4 @@
 library(tidyverse)
-df <- data(mpg)
+df <- mpg
+
+mean(df$cty)
